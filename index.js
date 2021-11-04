@@ -37,7 +37,7 @@ inquirer
     {
       type: "input",
       message: "What command should be run to run tests?",
-      name: "command2",
+      name: "comand2",
     },
     {
       type: "input",
@@ -55,7 +55,7 @@ inquirer
     const {
       username,
       email,
-      projectName,
+      projectname,
       description,
       license,
       comand,
@@ -63,7 +63,7 @@ inquirer
       know,
       answer,
     } = response;
-    const readme = `# ${projectName}
+    const readme = `# ${projectname}
 
 
 
